@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2 - Analista de Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Logo</div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="index.html#sobre-mi" class="nav-link">Sobre mí</a>
+                <a href="index.html#habilidades" class="nav-link">Habilidades</a>
+                <a href="index.html#proyectos" class="nav-link">Proyectos</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Proyecto Detail -->
+    <section class="project-detail">
+        <div class="container">
+            <h1 class="project-detail-title">Dashboard de indicadores</h1>
+            
+            <div class="project-detail-content">
+                <div class="project-detail-image">
+                    <div class="placeholder" style="height: 300px;">Imagen del Proyecto</div>
+                </div>
+                
+                <div class="project-detail-info">
+                    <p class="project-detail-description">Texto sobre el proyecto</p>
+                    
+                    <div class="project-technologies">
+                        <h3>Tecnologías utilizadas:</h3>
+                        <p>Power BI, DAX, Excel</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-navigation">
+                <a href="index.html" class="btn btn-secondary">PÁGINA DE INICIO</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cristian Diaz. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <style>
+        .project-detail {
+            padding: 3rem 0;
+            min-height: calc(100vh - 200px);
+        }
+
+        .project-detail-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .project-detail-content {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+        }
+
+        .project-detail-image {
+            width: 100%;
+        }
+
+        .project-detail-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project-detail-description {
+            color: var(--light-text);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .project-technologies {
+            margin-top: 1.5rem;
+        }
+
+        .project-technologies h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-technologies p {
+            color: var(--light-text);
+            font-size: 0.9rem;
+        }
+
+        .project-navigation {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .project-detail-content {
+                grid-template-columns: 1fr;
+            }
+
+            .project-detail-title {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</body>
+</html>
