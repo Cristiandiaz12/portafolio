@@ -91,19 +91,6 @@ Actualiza los links en la sección de contacto:
 <a href="https://github.com/tu-usuario" class="social-link" title="GitHub">⚙</a>
 ```
 
-## 📱 Breakpoints Responsivos
-
-- **Desktop**: 1200px+
-- **Tablet**: 768px - 1199px
-- **Mobile**: 480px - 767px
-- **Small Mobile**: < 480px
-
-## 🔧 Tecnologías Usadas
-
-- **HTML5** - Estructura semántica
-- **CSS3** - Estilos y animaciones
-- **CSS Grid & Flexbox** - Layouts responsivos
-- **CSS Variables** - Personalización fácil
 
 ## 📝 Proyectos Incluidos
 
@@ -119,15 +106,6 @@ Actualiza los links en la sección de contacto:
    - Tecnologías: Python, Pandas
    - Ubicación: `proyecto-3.html`
 
-## 💡 Consejos de Mejora
-
-1. **Agrega animaciones** - Usa CSS animations para más interactividad
-2. **Implementa formulario de contacto** - Usa Formspree o similar
-3. **SEO** - Agrega meta tags y schema.org
-4. **Analytics** - Integra Google Analytics
-5. **Dark Mode** - Agrega tema oscuro con CSS media queries
-6. **Blog** - Agrega sección de artículos
-7. **Certificados** - Muestra tus certificaciones
 
 ## 📄 Licencia
 
